@@ -11,3 +11,6 @@ The election database consists of 3 tables: candidates, parties and voters. User
 Additionally our candidates are tied to one of three parties and we establish that through a foreign key.
 
 This code is modularized and uses prepared statements & error handling.
+
+--------------
+[![xkcd comic - Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)](https://xkcd.com/327/)
