@@ -8,7 +8,6 @@
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=flat&logo=jest&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
 
-## SUMMARY
 Back end for U Vote It, a voting application for developer meetup group called U Develop It. 
 
 This was made as an exercise in storing structured data in a relational database and using the MySQL command-line interface.
