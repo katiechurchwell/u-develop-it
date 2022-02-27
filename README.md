@@ -3,14 +3,31 @@
   [![project-top-language](https://img.shields.io/github/languages/top/katiechurchwell/u-develop-it?color=blueviolet)](https://github.com/katiechurchwell/u-develop-it)
 
 ## Summary
-Back end for U Vote It, a voting application for developer meetup group called U Develop It. This was made as an exercise in storing structured data in a relational database and using the MySQL command-line interface.
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=flat&logo=jest&logoColor=white)
 
-## Description
-The election database consists of 3 tables: candidates, parties and voters. Users are able to submit votes for the candidate of their choosing and on the backend we are able to look at when that vote was cast as well as some additional information about them.
+## SUMMARY
+Back end for U Vote It, a voting application for developer meetup group called U Develop It. 
 
-Additionally our candidates are tied to one of three parties and we establish that through a foreign key.
+This was made as an exercise in storing structured data in a relational database and using the MySQL command-line interface.
 
-This code is modularized and uses prepared statements & error handling.
+The database consists of 3 tables: candidates, parties and voters. All have CRUD routes.
 
---------------
-[![xkcd comic - Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)](https://xkcd.com/327/)
+## Installation
+- Clone the repository.
+- Create a `.env` file and add `DB_PW =` with your MySql password.
+- Run `npm start` in the terminal.
+
+## Usage
+- Routes can be used through an API client; I used Insomnia.
+
+## Questions
+  If you have any questions about this project, please open an issue or use the contact information below:
+  * [katiechurchwell](https://www.github.com/katiechurchwell)
+  * [churchwellcatherine@gmail.com](mailto:churchwellcatherine@gmail.com)
+
+---
+  ![](https://img.shields.io/badge/license-MIT-blue)
+
+  [![xkcd comic - Exploits of a Mom](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)](https://xkcd.com/327/)
